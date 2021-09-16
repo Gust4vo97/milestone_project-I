@@ -4,9 +4,61 @@
     margin: 0;
     padding: 0;
     border: none;
+    background-color: black;
 }
 
-body {
-    font-family: roboto, sans-serif;
+body  {
+    font-family: open sans, sans-serif;
     font-weight: 300;
+    color: white;
+}
+
+
+/* heading and logo */
+
+h1, h2 {
+    font-family: roboto, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: pink;
+    
+}
+
+#logo {
+    float: left;
+    font-size: 300%;
+    margin-left: 750px;
+}
+
+/* navigation links */
+
+
+#menu {
+    font-size: 150%;
+    letter-spacing: 2px;
+}
+
+#menu, #logo {
+     line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+    
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom:1px solid pink;
+    color: pink;
+}
+
+.active {
+    border-bottom: 1px solid white;
 }
